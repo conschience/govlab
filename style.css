@@ -1,0 +1,168 @@
+body {
+	margin: 0;
+	border-left: 8px solid #000;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+::selection {
+	background: #1919A3;
+	color: #EEEEEE;
+	text-shadow: none;
+}
+
+
+
+.header {
+	height: 150px;
+	margin: 0;
+    background-color: rgba(211,211,211,0.5);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    text-align: center;
+}
+
+
+#navbar {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    }
+    
+    
+#navbar li {
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#navbar a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#navbar .active a {
+    text-transform: bold;
+}
+
+
+h1.title {
+     font-family: 'Ubuntu Mono', serif;
+   	 font-size: 60px;
+     font-weight: 700;
+     color: #fff;
+     margin-bottom: 0;
+    }
+
+.textbox {
+	height: 250px;
+	position: relative;
+	margin: 0;
+	padding: 10%;
+	outline: none;
+	text-align: center;
+	background-color: #B8B8B8;
+	font-size: 36px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+  }
+
+.intro {
+	height: 300px;
+	background-image: url(http://constancechien.com/govlab/malawi2010_1886.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: local;
+	position: relative;
+	margin: 0;
+	padding: 20% 10% 10% 10%;
+	outline: none;
+	text-align: center;
+	color: #fff;
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+	
+  }
+.largeboxes {
+	height: 350px;
+	background-image: url(http://constancechien.com/govlab/malawi2010_1475.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: local;
+	position: relative;
+	margin: 0;
+	padding: 20% 10% 10% 10%;
+	outline: none;
+	text-align: center;
+	color: #fff;
+    font-weight: 300;
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+	
+  }
+  
+.pi {
+  	height: 200px;
+	background-color: #A8A8A8;
+	position: relative;
+	margin: 0;
+	padding: 5% 10%;
+	outline: none;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+  }
+  
+img {
+	margin-top: 0;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+}
+  
+  
+.contact {
+	height: 150px;
+	position: relative;
+	margin: 0;
+	padding: 10%;
+	outline: none;
+	text-align: center;
+	background-color: rgba(211,211,211,0.5);
+	font-family: 'Lato', sans-serif;
+  }
+  
+#MITlogo { background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/321px-MIT_logo.svg.png);}
+
+.footer {
+	height: 30px;
+	position: relative;
+	margin: 0;
+	outline: none;
+	text-align: center;
+	background-color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+  }
+  
+  
+.line-separator{
+	height:2px;
+	background:#000;
+	border-bottom:1px solid #000;
+  }
